@@ -12,7 +12,7 @@ var radius float32
 var osmUrl string
 
 func init() {
-	radius = 2000
+	radius = 3000
 	osmUrl = "https://maps.mail.ru/osm/tools/overpass/api/interpreter"
 }
 
