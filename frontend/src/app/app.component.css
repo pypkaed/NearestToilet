@@ -1,0 +1,31 @@
+header {
+  text-align: center;
+  font-size: large;
+  font-family: "Cantarell Extra Bold", serif;
+  margin: 2%;
+}
+
+#yandex-map-container {
+  border-image: url("/assets/toilet_img.jpg") 10% fill;
+  border-style: solid;
+  border-width: 6px;
+}
+
+.footer-element {
+  font-size: small;
+  padding-left: 2%;
+}
+
+a:link {
+  color: saddlebrown;
+  text-decoration: none;
+}
+
+a:hover {
+  color: cornflowerblue;
+}
+
+a:visited {
+  color:saddlebrown;
+  text-decoration: none;
+}

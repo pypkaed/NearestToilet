@@ -1,5 +1,5 @@
 <div id="yandexMap" style="width: 100%; height: 500px;"></div>
 
-<div *ngIf="toiletsNotFoundMsg && toiletsNotFoundMsg.length > 0">
-  {{ toiletsNotFoundMsg }}
-</div>
+<app-errors [errorMessage]="toiletsNotFoundMsg"></app-errors>
+<app-errors [errorMessage]="incorrectCoordsMsg"></app-errors>
+<app-errors [errorMessage]="connectionErrorMsg"></app-errors>

@@ -3,19 +3,20 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
 import { YandexMapComponent } from './yandex-map/yandex-map.component';
-import { FormsModule, ReactiveFormsModule } from "@angular/forms";
 import { HttpClientModule } from "@angular/common/http";
+import { ErrorsComponent } from './errors/errors.component';
+import {NgOptimizedImage} from "@angular/common";
 
 @NgModule({
   declarations: [
     AppComponent,
     YandexMapComponent,
+    ErrorsComponent,
   ],
   imports: [
     BrowserModule,
     HttpClientModule,
-    ReactiveFormsModule,
-    FormsModule,
+    NgOptimizedImage,
   ],
   providers: [],
   bootstrap: [AppComponent]
