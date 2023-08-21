@@ -1,3 +1,13 @@
 # NearestToilet
 
-sudo docker-compose up
+О нет! Я прямо **сейчас** взорвусь, где же туалеты?!?!
+
+Как хорошо, что у меня под рукой мой любимый ноутбук с докером, на котором я смогу запустить этот гениальный проект и узнать, какие же туалеты есть поблизости!
+
+![](https://github.com/pypkaed/NearestToilet/blob/main/toilets.gif)
+
+---
+`sudo docker-compose up`
+localhost:4200
+
+мне больше нечего сказать.
